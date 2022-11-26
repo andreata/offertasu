@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="62.414" viewBox="0 0 81 62.414">
+  <g id="Raggruppa_46" data-name="Raggruppa 46" transform="translate(0 1)">
+    <g id="Raggruppa_44" data-name="Raggruppa 44" transform="translate(47 16)">
+      <path id="Tracciato_740" data-name="Tracciato 740" d="M2.015,15c-4.662-6.25.375-9.437-.8-15C3.993,1.715,4.5,3.884,5.084,6.168S7.6,10.51,9.646,10.535s3.53-1.548,4.2-3.816A7.828,7.828,0,0,1,11.446,15" transform="translate(9.827 29)" fill="none" stroke="#f58600" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Tracciato_741" data-name="Tracciato 741" d="M27,43c3.813-3.5,6-7.125,6-11,0-5.708-2.959-10.351-6.8-12.3a4.894,4.894,0,0,1-.932,6.09c-1.508,1.465-6.889,1.8-7.147-2.171-.233-3.578,2.717-3.3,3.8-9.507S17.519,2.024,12.425,0C16.471,3.538,15.157,9.8,8,17c-4.814,4.842-8,8.188-8,14,0,4.25,3.75,10.25,7,11.968" fill="none" stroke="#f58600" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g id="Raggruppa_45" data-name="Raggruppa 45">
+      <path id="Linea_6" data-name="Linea 6" d="M0,0H9" transform="translate(0 21)" fill="none" stroke="#232d36" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Linea_7" data-name="Linea 7" d="M0,4.5,7.794,0" transform="translate(3.215 28.5)" fill="none" stroke="#232d36" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Linea_8" data-name="Linea 8" d="M0,7.8,4.5,0" transform="translate(12 33.99)" fill="none" stroke="#232d36" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Linea_9" data-name="Linea 9" d="M0,9V0" transform="translate(24 36)" fill="none" stroke="#232d36" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Linea_10" data-name="Linea 10" d="M4.5,7.8,0,0" transform="translate(31.5 33.99)" fill="none" stroke="#232d36" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Linea_11" data-name="Linea 11" d="M7.8,4.5,0,0" transform="translate(36.99 28.5)" fill="none" stroke="#232d36" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Linea_12" data-name="Linea 12" d="M9,0H0" transform="translate(39 21)" fill="none" stroke="#232d36" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Linea_13" data-name="Linea 13" d="M7.8,0,0,4.5" transform="translate(36.99 9)" fill="none" stroke="#232d36" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Linea_14" data-name="Linea 14" d="M0,0l7.8,4.5" transform="translate(3.215 9)" fill="none" stroke="#232d36" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Tracciato_742" data-name="Tracciato 742" d="M10,24A9.859,9.859,0,0,1,0,14,12.977,12.977,0,0,1,2.86,6C4,4.6,5,3.807,5,2V0" transform="translate(14 7)" fill="none" stroke="#232d36" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Tracciato_743" data-name="Tracciato 743" d="M0,24A9.859,9.859,0,0,0,10,14,12.977,12.977,0,0,0,7.14,6C6,4.6,5,3.807,5,2V0" transform="translate(24 7)" fill="none" stroke="#232d36" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Tracciato_744" data-name="Tracciato 744" d="M3,7H0V0H12V7H6" transform="translate(18)" fill="none" stroke="#232d36" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+// Default variables
+html {
+	--base-font-size: 16px;
+}
+
+// Light default theme
+body {
+	--bg-color: white;
+	--bg-color-rgba: rgba(243,247,249, .9);
+	--bg-content-color: #fff;
+	--bg-submenu-color: #111;
+	--light-orange: #FFF2E1;
+	--orang-color: #F58600;
+	--strong-orange: #EB6300;
+ 	--bg-code: #fffbf3;
+ 	--body-color: #444;
+	--grey-body-color: #8989A2;
+ 	--title-color: #232D36;
+	 --link-color: #F58600;
+	 --salmonella: #FFF2E1;
+	 
+	 --link-color-rgba: rgba(233,100,96,.1);
+	--border-color:  rgba(0,0,0,.1);
+  --space: 3.5rem;
+  --space2: 1.5rem;
+  --half-space: 1.5rem;
+  --content-width: 860px;
+  --header-height: 80px;
+  --radius: 5px;
+}
+
+// Make  things smaller for mobile
+@media screen and (max-width: 650px) {
+	html {
+		--base-font-size: 14px;
+	}
+	body {
+		--space: 1.5rem;
+		--space2: 0.5rem;
+		--half-space: 0.5rem;
+		--header-height: 60px;
+	}
+}
+
+
+// Override variables for Dark theme
+body[data-theme="dark"] {
+	 --bg-color: #1f2024; //#0D2538;
+	 --bg-color-rgba: rgba(41,43,46, .9); //rgba(13,37,56, .5);
+	--bg-content-color: #292b2e; //#0f2d44;
+	--salmonella: #3a3c43;
+	--grey-body-color: #fff;
+	--bg-submenu-color: #fff;
+ 	--bg-code: rgba(0,0,0,.3);
+ 	--border-color:  rgba(255,255,255,.1);;
+ 	--body-color: #ced8de;
+ 	--title-color: #fff;
+ 	--link-color: #e96460;
+}

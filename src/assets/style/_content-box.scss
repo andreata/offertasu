@@ -1,0 +1,55 @@
+// Used to wrap content inside a nice box.
+.content-box {
+	background-color: var(--bg-content-color);
+	max-width: calc(100% - 60px);
+		
+	@media screen and (max-width: 768px) {
+		max-width: calc(100%);
+	}
+	margin-left: 0;
+	transition: background-color .6s;
+	padding: var(--space);
+  border-radius: var(--radius);
+  box-shadow: 1px 1px 5px 0 rgba(0,0,0,.02), 1px 1px 15px 0 rgba(0,0,0,.03);
+  transition: transform .3s, background-color .3s, box-shadow .6s;
+  &.content-box-2 {
+	  padding: var(--space2);
+  }
+  &.box {
+	  padding: 0.5rem;
+  }
+}
+.carousel-cell {
+	//width: 50%; 
+	margin-right: 10px;
+	.bg-box {
+		display: flex;
+		align-items: flex-end;
+		flex-wrap: wrap;
+		.date {
+			font-size: 0.7rem;
+			padding: 0.1rem 0.3rem;
+			border: 1px solid white;
+			color: white;
+			z-index: 99;
+			max-width: fit-content;
+			border-radius: var(--radius);
+			position: relative;
+		}
+		.excerpt {
+			margin-top: 0.5rem;
+			font-size: 0.7rem;
+			color: white;
+			position: relative;
+			z-index: 99;
+		}
+	}
+}
+
+.flickity-slider {
+	min-height: 500px;
+}
+
+.pagination {
+	text-align: center;
+}

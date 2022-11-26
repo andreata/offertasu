@@ -1,0 +1,27 @@
+.read-external {
+    display: flex;
+    background: #f5915c;
+    border-bottom: 5px solid #ec6870;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 19px;
+    font-weight: 900;
+    .read-internal {
+        margin: 10px;
+    }
+    svg {
+        width: 20px;
+        margin-right: 10px;
+    }
+    &:hover {
+            background: #fcbe45a1;
+    cursor: pointer;
+    }
+}
+
+.team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

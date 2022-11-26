@@ -1,0 +1,68 @@
+.button-pieno {
+    background-color: var(--orang-color);
+    color: var(--bg-color) !important;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 30px;
+    font-size: 16px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    max-width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    &.post-card__link {
+        margin-left: 0;
+    }
+    @media screen and (max-width: 768px) {
+        font-size: 12px;
+    }
+}
+
+.button-vuoto {
+    padding: 15px;
+    border: 1px solid var(--orang-color);
+    border-radius: 30px;
+    background-color: var(--bg-color);
+    color: var(--orang-color);
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    @media screen and (max-width: 768px) {
+        margin: auto;
+        font-size: 12px;
+    }
+}
+
+
+.button-pieno:after {
+    content: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.571 12"><path fill="white" d="M16.356,5.429,11.785.286A.877.877,0,0,0,10.568.209a.879.879,0,0,0-.059,1.219l3.3,3.714H.857a.857.857,0,1,0,0,1.714H13.812l-3.3,3.714a.878.878,0,0,0,.068,1.218.867.867,0,0,0,1.209-.076l4.571-5.143a.866.866,0,0,0,0-1.143Z" transform="translate(0 0)" /></svg>');
+    font-size: 80%;
+    margin-left: 10px;
+    margin-top: 3px;
+    width: 13px;
+    transition: all .3s ease 10ms;
+}
+
+.button-pieno:hover:after {
+    transform: translateX(10px);
+}
+
+.button-vuoto:after, .wp-block-button__link:after {
+    content: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.571 12"><path fill="%23F58600" d="M16.356,5.429,11.785.286A.877.877,0,0,0,10.568.209a.879.879,0,0,0-.059,1.219l3.3,3.714H.857a.857.857,0,1,0,0,1.714H13.812l-3.3,3.714a.878.878,0,0,0,.068,1.218.867.867,0,0,0,1.209-.076l4.571-5.143a.866.866,0,0,0,0-1.143Z" transform="translate(0 0)" /></svg>');
+    font-size: 80%;
+    margin-left: 10px;
+    margin-top: 3px;
+    width: 13px;
+    transition: all .3s ease 10ms;
+}
+
+.button-vuoto:hover:after, .wp-block-button__link:hover:after {
+    transform: translateX(10px);
+}

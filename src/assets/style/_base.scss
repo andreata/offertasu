@@ -1,0 +1,145 @@
+// Default
+* {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+ 	background-color: var(--bg-color);
+ 	color: var(--body-color);
+ 	transition: color .6s, background-color .6s;
+ 	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  margin:0;
+  padding:0;
+  line-height: 1.5;
+}
+
+a:not(.button) {
+	color: var(--link-color);
+ 	transition: opacity .2s;
+	&:hover {
+		opacity: .8;
+	}
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container { 
+  position: relative;
+}
+
+@media screen and (min-width: 40em) {
+  .layout > * {
+    margin-bottom: 0;
+  }
+  .layout {
+    display: grid;
+    grid-gap: 10px 20px;
+    grid-template-columns: 1fr 5fr 1fr;
+    
+    &.side {
+      grid-template-columns: 0fr 3fr 1fr;
+    }
+  }
+  .header, .footer, .content {
+    grid-column: 1 / -1;
+  }
+  .sidebar {
+    grid-row-end: span 2;
+  }
+  .content {
+    display: grid;
+  }
+  .container-sidebar {
+    display: flex;
+      width: 100%;
+  }
+  .full-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    
+  }
+  .container {
+    grid-column: 2;
+    margin: auto;
+    /* grid-template-columns: 3fr 1fr !important;
+      display: grid; */
+  
+  }
+
+  .full-container, .header, .footer {
+    justify-items: center;
+  }
+.container,
+.header .header-box, .footer .footer-blox {
+    max-width: 1440px;
+}
+      
+
+}
+
+.cat-home h2 {
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    padding: 10px;
+    font-size: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: var(--bg-content-color);
+    color: var(--link-color);
+    margin: 0;
+  &:hover {
+    transition-duration: 0.3s;
+    transform: translateY(-5px);
+    box-shadow: 1px 10px 30px 0 rgba(0,0,0,.1);
+  }
+}
+
+.no-border {
+  border:0;
+}
+
+@media screen and (min-width: 768px) {
+  .mobl {
+    display: none!important;
+  }
+    .desk {
+      display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .VueCarousel-wrapper {
+    overflow: visible !important;
+  }
+  .mobl {
+    display: block;
+  }
+
+  .desk {
+    display: none !important;
+  }
+  .container {
+        padding: 0 15px;
+  }
+  .flickity-prev-next-button {
+    display: none;
+  }
+  .sidebar {
+        padding: var(--space);
+  }
+}
+
+.home-h1 {
+  padding: var(--half-space) 0;
+}
+
+figure, video, iframe {
+  max-width: 100%;
+}
+
